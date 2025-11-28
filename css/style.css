@@ -2,18 +2,21 @@
 .navbar{
     padding: 1.5rem;
     background-color: #f5f6f7;
-
+}
+.navbar:hover{
+    opacity: 0.7 !important;
 }
 .navbar-collapse{
     align-items: center;
     justify-content: space-between;
 }
 .nav-link{
+    color: black;
     transition: all 0.5s ease-in-out;
     font-weight: 500;
 }
 .nav-link:hover{
-    color: rgb(6, 189, 113);
+    color: rgb(10, 105, 66);
     transform: scale(1.1);
 }
 /*foto de perfil*/
@@ -102,7 +105,6 @@ h1{
     max-width: 600px;
     
 }
-
 /*Experiencia*/
 .experiencia{
     padding: 40px 40px 60px 40px;
@@ -111,11 +113,13 @@ h1{
 .experiencia .columna{
     padding: 20px;
     border: 2px solid #8080804d;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     transition: all 0.2s ease-in;
+    height: 100%;
 }
 
 .experiencia .columna:hover{
